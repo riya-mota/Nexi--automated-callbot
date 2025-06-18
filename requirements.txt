@@ -1,5 +1,9 @@
 # F5-TTS Working Requirements
 # Core ML libraries
+# FastAPI and Web Server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
 torch>=2.1.0
 torchaudio>=2.1.0
 transformers>=4.35.0
@@ -36,3 +40,20 @@ ipywidgets>=8.0.0
 # Optional: Development tools
 black>=23.0.0
 pytest>=7.0.0
+
+# HTTP and Utilities
+pydantic>=2.4.0
+python-jose[cryptography]>=3.3.0
+
+# File Handling
+pathlib2>=2.3.7
+
+# Logging and Environment
+python-dotenv>=1.0.0
+
+# Optional: For better performance
+# nvidia-ml-py3>=7.352.0  # For GPU monitoring
+# psutil>=5.9.0  # For system monitoring
+
+# Development Dependencies (optional)
+# httpx>=0.25.0  # For testing async endpoints
